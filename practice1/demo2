@@ -1,0 +1,4 @@
+fn main(){
+	println!("being a girl never makes me less human");
+	println!("people often think it does");
+}
