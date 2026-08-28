@@ -1,0 +1,4 @@
+fn main(){
+	println!("im trying to coomit on github");
+	println!("i seem to be encountering some difficulties");
+}
