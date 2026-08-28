@@ -1,0 +1,5 @@
+fn main(){
+	println!("all my courses a's");
+	println!("by God's grace");
+	println!("i can do it");
+}
