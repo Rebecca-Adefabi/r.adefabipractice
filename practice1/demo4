@@ -1,14 +1,16 @@
 fn main(){
-    println!("student information card");
+    println!("=====================================");
+    println!("     Student information card");
+    println!("=====================================");
 	let name = "Rebecca Adefabi";
-	let programme = "software Engineering";
-	let department = "computer science";
+	let programme = "Software Engineering";
+	let department = "Computer science";
 	let age = 19;
-	let level = "100 lvl";
-	println! ("Name: {}", name);
+	let level = 100;
+	println!("Name      : {}", name);
 	println!("Department: {}", department);
-	println!("Progrmme: {}", programme);
-    println!("Level: {}", level);
-    println!("Age: {}years old", age);
-    
+	println!("Progrmme  : {}", programme);
+    println!("Level     : {} lvl", level);
+    println!("Age       : {} years old", age);
+    println!("=====================================");
 }
