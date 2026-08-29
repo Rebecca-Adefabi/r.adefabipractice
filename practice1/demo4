@@ -6,6 +6,8 @@ fn main(){
 	let mut age = "19yrs";
 	let mut level = "100 lvl";
 	println! ("your name is {}", name);
-   
-
+	println!("you are studying {}", programme);
+    println!("your department is {}", department);
+    let new_age = 19+1;
+    println! ("by next year, you'll be {} yrs", new_age);  
 }
