@@ -1,0 +1,11 @@
+fn main(){
+    println!("student information card");
+	let mut name = "Rebecca Adefabi";
+	let mut programme = "software Engineering";
+	let department = "computer science";
+	let mut age = "19yrs";
+	let mut level = "100 lvl";
+	println! ("your name is {}", name);
+   
+
+}
