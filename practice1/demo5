@@ -1,0 +1,17 @@
+fn main(){
+    println!("============================");
+	println!("Customer receipt");
+    println!("============================");
+
+    let item = "peanut";
+    let quantity = 7;
+    let price = 500;
+    let total = price * quantity;
+
+    println!("{} {}  {}", quantity, item, price );
+    println!("Total: {}", total);
+    println!("============================");
+    println!("Thanks for your patronage!");
+    println!("============================");
+
+    }
