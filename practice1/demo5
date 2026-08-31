@@ -3,13 +3,22 @@ fn main(){
 	println!("Customer receipt");
     println!("============================");
 
-    let item = "peanut";
-    let quantity = 7;
-    let price = 500;
-    let total = price * quantity;
+    let item1 = "peanut";
+    let quantity1 = 7;
+    let price1 = 500;
+    let total1 = price1 * quantity1;
 
-    println!("{} {}  {}", quantity, item, price );
-    println!("Total: {}", total);
+    let item2 = "zobo";
+    let quantity2 = 5;
+    let price2 = 800;
+    let total2 = price2 * quantity2;
+
+    let total = total1 + total2;
+
+    println!("{} {}  {}", quantity1, item1, price1 );
+
+    println!("{} {}    {}", quantity2, item2, price2 );
+    println!("Total:   {}", total);
     println!("============================");
     println!("Thanks for your patronage!");
     println!("============================");
